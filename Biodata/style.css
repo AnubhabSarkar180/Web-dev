@@ -1,0 +1,29 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    line-height:180px;
+    background-color:lightcoral;
+}
+h3{
+    font-weight: 400;
+    text-align: center;
+    background-color: lightgreen;
+}
+p{
+    text-align:center;
+    font-size: 1.5em;
+    background-color: blanchedalmond;
+}
+h2{
+    text-align: center;
+    line-height: 0%;
+    font-size: 2em;
+    background: bisque;
+}
+h4{
+    text-align: center;
+    line-height: 0%;
+}
+a{
+    text-decoration: none;
+}
