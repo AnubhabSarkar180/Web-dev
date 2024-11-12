@@ -1,4 +1,6 @@
-
+body{
+    background-image: linear-gradient(antiquewhite, );
+}
 .form{
     display:flex;
     justify-content:center;
@@ -40,8 +42,9 @@ button{
     cursor: pointer;
     border-style: none;
     padding:10px 30px;
-    background-color: cornflowerblue;
+    background-color: blue;
     color: white;
+    filter:brightness(130%);
 }
 
 .btn{
