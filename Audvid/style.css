@@ -1,0 +1,16 @@
+.video{
+    display: block;
+    height:100%;
+    width:100%;
+    text-align: center;
+    padding:30px;
+    background-color: aliceblue;
+}
+
+.audio{
+    text-align:center;
+    padding:30px;
+    height:100%;
+    width:100%;
+    background-color: antiquewhite;
+}
