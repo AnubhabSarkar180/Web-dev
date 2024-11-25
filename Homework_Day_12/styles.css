@@ -70,15 +70,10 @@ article{
     margin:auto;
     padding:25px;
     transform:scale(1.0,1.0);
-    box-shadow: 6px 10px rgba(0,0,0,0.5);
     transition:transform 0.5s ease ;
-    transition:box-shadow 0.5s ease;
 }
 
-article:hover{
-    transform:scale(1.1,1.2);
-    box-shadow: 6px 10px rgba(0,0,0,1);
-}
+
 .car{
     display: flex;
     justify-content: center; 
