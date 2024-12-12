@@ -7,6 +7,26 @@
     --font2:"Lato",sans-serif;
 }
 
+.form-content::-webkit-scrollbar{
+    width:8px;
+}
+
+.form-content::-webkit-scrollbar-track{
+    background-color:transparent;
+}
+
+.form-content::-webkit-scrollbar-thumb{
+    background: #701a75;
+    border:3.6px solid transparent;
+    border-radius: 8px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    height:8px;
+}
+
+.form-content::-webkit-scrollbar-thumb:hover{
+    background: #5e185f;
+}
 form{
     display:flex;
     justify-content: center;
@@ -29,6 +49,7 @@ form{
     max-block-size:90%;
     width:80%;
     background-color:whitesmoke;
+    overflow-y: auto;
 }
 
 header{
@@ -75,15 +96,12 @@ input{
     padding:0%;
 }
 
-/* .servi{
-    display:flex;
-    gap:4px;
-} */
+
 
 .serv{
-    font-size: 1.2em    ;
+    font-size: 1.2em;
     display:flex;
-    gap: 3px;
+    gap: 2.3px;
 }
 
 select{
