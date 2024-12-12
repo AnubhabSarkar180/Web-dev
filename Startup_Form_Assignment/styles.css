@@ -59,6 +59,7 @@ label{
     margin:30px;
     padding-bottom: 32px;
     font-family: var(--font2);
+    
 }
 
 input{
@@ -74,13 +75,15 @@ input{
     padding:0%;
 }
 
-.servi{
+/* .servi{
     display:flex;
     gap:4px;
-}
+} */
 
 .serv{
     font-size: 1.2em    ;
+    display:flex;
+    gap: 3px;
 }
 
 select{
