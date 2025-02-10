@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');  
+
+:root{
+    --font1:"Montserrat",sans-serif;
+}
+
+body{
+    background-color: black;
+    color:white;
+    padding:0;
+    margin:0;
+    
+}
+
+button{
+    background-color: white;
+    color:black;
+    width:250px;
+    height:50px;
+    border-radius: 20px;
+}
+
+h1,h3{
+    color:white;
+    /* font-family: var(--font1); */
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1{
+    font-size:3em;
+}
+
+
+h3{
+    font-size:1.8em;
+}
+
+.or{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left:-150px;
+}
+
+.or span{
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+span{
+    padding:0 10px;
+}
+
+img{
+    width:700px;
+    margin-left:30px;
+    margin-top:40px;
+}
+
+hr{
+    width:20%;
+    padding:0;
+    margin:0;
+    border: 1px solid rgb(113, 118, 123);
+}
+
+.g_btn button , .a_btn button , .c_btn button , .toc p ,.toc p a{
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+}
+
+main{
+    display: flex;
+    gap:15px;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    margin: 100px 150px  ;
+    gap:8px;
+    /* justify-content: center; */
+
+}
+
+.toc{
+    width:200px;
+    font-size: 0.65em;
+    text-align: justify;
+    margin-left: 10px;
+    height:150px;
+    overflow-x:auto;
+    color:rgb(113, 118, 123);
+}
+
+.c_btn button{
+    background-color: rgb(29, 155, 240);
+    color:white;
+}
+
+.g_btn button, .a_btn button{
+    display:flex;
+    align-items: center;
+    justify-content:stretch;
+    gap:12px;
+}
+
+.g_btn img{
+    width:30px;
+    height:28px;
+    margin-bottom:40px;
+}
+
+.a_btn img{
+    width:36px;
+    height:28px;
+    margin-bottom:40px;
+    margin-left:25px;
+}
+
+.g_btn button, .a_btn button{
+    filter:brightness(110%);
+    transition: filter 0.5s linear;
+}
+
+.g_btn button:hover, .a_btn button:hover{
+    filter:brightness(80%);
+}
+
+.tags span{
+    font-size: 0.7em;
+    
+}
+
+.tags span a{
+    color:rgb(113, 118, 123);
+    text-decoration: none  ;
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.tags{
+    margin-left: 20px;
+    margin-bottom:200px;
+    max-height: fit-content;
+}
+
+.company{
+    color:rgb(113, 118, 123);
+    text-align: center;
+    margin-top:-180px;
+    font-size:0.7em ;
+    margin-bottom:20px;
+    max-height:fit-content;
+}
+
+.company span{
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
