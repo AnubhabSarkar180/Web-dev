@@ -136,6 +136,7 @@ button:hover{
 .trending{
     width:80vw;
     border-top: 2px solid red;
+    border-top-left-radius:10px ;
     padding:80px;
 }
  
@@ -177,6 +178,10 @@ body{
     color:white;
 }
 
+.join h2{
+    margin-left: 55px;
+}
+
 .card{
     display:flex;
     margin-top:50px;
@@ -199,6 +204,11 @@ body{
   justify-content: space-between;
 }
 
+.cards1 h2,.cards2 h2,.cards3 h2,.cards4 h2{
+    text-align:start;
+    padding-bottom: 12px;;
+    color: white;
+}
 .cards1 svg, .cards2 svg,.cards3 svg,.cards4 svg{
     align-self:flex-end;
 }
@@ -215,6 +225,7 @@ body{
 
 .faq h1{
     padding:20px;
+    margin-left:25px;
 }
 
 .questions div{
