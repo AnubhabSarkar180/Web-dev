@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font1:"Roboto",sans-serif;
+}
+
+.srs::-webkit-scrollbar{
+    display:none;
+}
+
+body{
+    background-color: black;
+}
+
+*{
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: var(--font1);
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+ .bg-image img{
+    box-shadow: 80px 80px 300px black;
+    width:100vw;
+    height:580px;
+
+} 
+.bg-image{
+    z-index: -1;
+    position:absolute;
+    filter:brightness(50%);
+}
+
+.netflix_logo{
+    width:130px;
+    padding:10px 20px;
+    margin-left: -220px;
+    margin-top:8px;
+}
+
+.signin{
+    padding:10px 20px;
+    margin-right: -220px;;
+}
+
+.signin select{
+    padding:5px 10px;
+    border-radius:5px;
+    background-color: #171717af;
+    color: #fff;
+    font-size: 14px;
+}
+
+.signin button{
+    width:70px;
+    height:28px;
+    background-color: rgb(229, 9, 20);
+    border:0;
+    border-radius: 5px;
+}
+
+.content{
+    margin:auto;
+    margin-top:150px;
+    width:375px;
+}
+
+.content h1{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+.content p{
+    font-size: 1.1rem;
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.input{
+    margin-bottom: 20px;
+    text-align: center;
+    gap:8px;
+}
+
+.input h3{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+.input input{
+    width:400px;
+    height:20px;
+    padding:20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color:white;
+    background-color: #171717c8;
+    border:2px solid white;
+}
+
+.input button{
+    background-color: rgb(229, 9, 20) ;
+    border:0;
+    border-radius: 5px;
+    width:200px;
+    height:28px;
+    padding:20px;
+    padding-bottom: 38px;
+    font-size: 18px;
+    text-align: center;
+}
+
+button:hover{
+    filter:brightness(85%);
+    cursor: pointer;
+}
+
+.srs{
+    display:flex;
+    margin-top: 20px;
+    gap:50px;
+    overflow-x:scroll;
+    padding:12px;
+}       
+
+.trending{
+    width:80vw;
+    border-top: 2px solid red;
+    padding:80px;
+}
+ 
+main{
+    
+    display: flex;
+    justify-content: center;
+} 
+
+body{
+    overflow-x: hidden;
+}
+
+.srs div{
+    position:relative;
+}
+
+.srs div:hover{
+    transform: scale(1.05);
+    transition:transform 0.3s;
+}
+
+.srs div h1{
+    font-size: 84px;
+    position:absolute;
+    bottom:12px;
+    left:-20px;
+    color:black;
+    -webkit-text-stroke: 1px  white;
+}
+
+.srs img{
+    border:0;
+    border-radius: 5px;
+    width:180px;
+}
+
+.join{
+    color:white;
+}
+
+.card{
+    display:flex;
+    margin-top:50px;
+    gap:50px;
+    justify-content: center;
+}
+
+.cards1 , .cards2,.cards3,.cards4{
+  width: 270px;
+  height: 230px;
+  background: linear-gradient(
+    to bottom right,
+    rgb(22, 22, 69),
+    rgb(52, 13, 13)
+  );
+  border-radius: 20px;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards1 svg, .cards2 svg,.cards3 svg,.cards4 svg{
+    align-self:flex-end;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    align-items: center;
+    width: 1110px;      
+    gap:10px;
+    padding:50px;
+}
+
+.faq h1{
+    padding:20px;
+}
+
+.questions div{
+    background-color:#2f3237;
+    padding:30px;
+    width: 1110px;
+    font-size: 1.3em;
+    transition: background-color 0.2s ease;
+}
+
+.questions div:hover{
+    background-color: #5e636e;
+}
+
+.query{
+    margin-left: 200px;
+    padding:20px;
+    font-size: 18px;
+    color:rgb(112, 117, 122);
+}
+
+.link{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+     /* background-color: aqua; */
+    margin:0px 270px; 
+    padding:40px;
+}
+
+.link div{
+    padding:10px;
+    /* width:99px; */
+    /* background-color: red; */
+    max-height: fit-content;
+    
+}
+
+.link div a{
+    color:rgb(112, 117, 122);
+    gap:50px;
+   
+    padding:20px;
+}
+
+
+.signin2{
+    padding:10px 20px;
+    margin-right: -320px;
+    margin-left:200px;
+}
+
+.signin2 select{
+    padding:5px 10px;
+    border-radius:5px;
+    background-color: #171717af;
+    color: #fff;
+    font-size: 14px;
+    width:100px;
+}
