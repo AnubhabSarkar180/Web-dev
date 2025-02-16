@@ -1,102 +1,201 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-:root{
-    --font:"Cantarell";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --font: "Noto Sans";
 }
 
-*{
-    padding:0;
-    margin:0;
-    color:white;
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
     font-family: var(--font);
 }
 
-header{
+header {
     background-image: url(https://www.kali.org/images/home-banner.jpg);
-    height:100vh;
-    width:100%;
-}   
-
-.Blue_shade{
-    background-color:#10377aa0;
-    height:100%;
+    height: 100vh;
+    background-size: cover;
 }
 
-.logo{
-    filter:brightness(0) invert();
+.Blue_shade {
+    background-color: #10377aa0;
+    height: 100%;
 }
 
-.documentation{
+.logo {
+    filter: brightness(0) invert();
+}
+
+.documentation {
     position: relative;
-    background:transparent;
+    background: transparent;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    transition:background-color 200ms;
+    transition: background-color 200ms;
 }
 
-.doc_list{
+.doc_list {
     position: absolute;
-    width:max-content;
+    width: max-content;
     background-color: black;
-    padding:20px 15px;
+    padding: 20px 15px;
     border-radius: 10px;
     border-top-left-radius: 0;
-    opacity:0;
+    opacity: 0;
     visibility: hidden;
     transform: translateY(-10px);
 
 
 }
-.bg-black{
-    margin:10px;
+
+.bg-black {
+    margin: 10px;
 }
 
-.bg-black:hover{
+.bg-black:hover {
     background: #222;
 }
 
-.documentation:hover{
+.documentation:hover {
     background: #000;
 }
 
-.documentation:hover .doc_list{
-        opacity:1;
-        visibility: visible;
-        transform:translateY(0);
-        
-    }
+.documentation:hover .doc_list {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 
-nav{
-    display:flex;
+}
+
+nav {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:10px 70px;
+    padding: 10px 70px;
 }
 
-.list_items{
-    display:flex;
+.list_items {
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap:20px;
+    gap: 20px;
 }
 
-.doc_list ul{
+.doc_list ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    gap:18px;
+    gap: 18px;
 }
 
-.list_items a{
+.list_items a {
     text-decoration: none;
 }
 
-.about .doc_list{
-    right:0;
+.about .doc_list {
+    right: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 0px;
 }
 
-.about{
+.banner {
+    display:flex;
+    margin-top:100px;
+}
 
+.banner-logo {
+    width: 32vw;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.content{
+    width:500px;
+    margin:auto 0;
+    padding:50px;
+    font-size: 18px;;
+}
+
+.content p:first-child{
+    font-size: 36px;
+
+}
+
+.btn{
+    position:relative;
+    left:90px;
+    top:50px;
+}
+
+.dwnd_btn,.doc_btn{
+    padding:15px 26px;
+    width:max-content;
+    font-size: 16px;
+    background-color: transparent;
+    font-weight:600;
+    border-radius: 8px;
+    cursor:pointer;
+    filter:brightness(0.90 );
+}
+
+.dwnd_btn{
+    border:2px orange solid;
+    color:orange;
+    box-shadow: 0px 0px 20px 0px #ffa50066;
+    transform:scale(1.0);
+    transition: background-color 200ms, color 200ms;
+}
+
+.doc_btn{
+    border:2px solid  #367bf0;
+    background-color: #367bf0;
+    box-shadow: 0px 0px 20px 0px #007bff66;
+    
+}
+
+.dwnd_btn:hover{
+    background-color: orange;
+    color:white;
+    filter:brightness(110%);
+    transform:translateY(2px);
+}
+
+.doc_btn:hover{
+    background-color: #367bf0;
+    color:white;
+    filter:brightness(1.1);
+    transform:translateY(2px);
+}
+
+.dwnd_btn i{
+    position: relative;
+    top:2px;
+    color:orange;
+    transition: color 200ms;
+    font-size: 18px;
+}
+
+.dwnd_btn i:hover{
+    color:white;
+}
+
+.down{    color: white;
+    display:flex;
+    justify-content: center;
+    font-size:50px;
+    height:100px;
+    align-items:center;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
