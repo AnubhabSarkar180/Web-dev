@@ -17,7 +17,7 @@ let y=5;
 x=x+y;
 y=x-y;
 x=x-y;
-console.log(x," ",y);
+console.log(x+" "+y);
 
 // Exercise 5
 let price=100;
@@ -28,4 +28,4 @@ console.log(price*quantity);
 // Bonus challenge
 let width=10;
 let height=12;
-console.log(width*height,"sq. units");
+console.log("Area of rectangle is "+width*height,"sq. units");
