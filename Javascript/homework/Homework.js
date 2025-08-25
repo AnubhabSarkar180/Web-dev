@@ -18,21 +18,18 @@ colors.addEventListener("click",function()
 // const butn=document.createElement("button");
 // document.box.append("butn");
 
-// const heading=document.createElement("h2");
-// heading.innerText="Click below to see the counter";
-// const newButton=document.createElement("button");
-// newButton.innerText="Click me";
-// const newPara=document.createElement("p");
-// const container=document.body;
-// container.append(heading);
-// container.append(newButton);
-// container.append(newPara);
-// const newSpan=document.createElement("span");
-// newSpan.innerText("This is a new span");
-// newPara.append(newSpan);
-// let counter=0;
-// newButton.addEventListener("click",function()
-// {
-//     counter+=1;
-//     newSpan.innerText(counter);
-// })
+// const newButton=document.getElementsByClassName("click");
+const newSpan=document.querySelector("span");
+let counter=0;
+newButton.addEventListener("click",function()
+{
+    counter+=1;
+    newSpan.innerText=counter;
+})
+
+const inp=document.getElementById("input_box")
+const disp=document.getElementById("display")
+inp.addEventListener("input",function(event)
+{
+    disp.innerText=event.target.value;
+})

@@ -1,0 +1,23 @@
+{
+  "name": "web-dev-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnubhabSarkar180/Web-dev-Course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnubhabSarkar180/Web-dev-Course/issues"
+  },
+  "homepage": "https://github.com/AnubhabSarkar180/Web-dev-Course#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

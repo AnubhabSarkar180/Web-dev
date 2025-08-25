@@ -11,10 +11,15 @@
     font-family: var(--font);
 }
 
+body{
+    background-color: black;
+}
+
 header {
     background-image: url(https://www.kali.org/images/home-banner.jpg);
     height: 100vh;
     background-size: cover;
+   margin-bottom: -100px;
 }
 
 .Blue_shade {
@@ -167,11 +172,17 @@ nav {
     transform:translateY(2px);
 }
 
+.doc_btn i{
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
 .dwnd_btn i{
     position: relative;
     top:2px;
     color:orange;
-    transition: color 200ms;
+    /* transition: color 200ms; */ 
     font-size: 18px;
 }
 
@@ -198,4 +209,55 @@ nav {
     100%{
         transform: translateY(0);
     }
+}
+
+#properties
+{
+    background-color: black;
+}
+
+.property{
+    margin-top: 30px;
+    display:flex;
+    gap:25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.property_1, .property_2, .property_3, .property_4, .property_5{
+    width:350px;
+    height:200px;
+    padding:10px;
+}
+
+.property_1 h3, .property_2 h3, .property_3 h3, .property_4 h3, .property_5 h3{
+    padding-bottom:10px;
+    text-align: center;
+}
+
+.property_1 i, .property_2 i, .property_3 i, .property_4 i, .property_5 i{
+    color:#367bf0;
+    position: relative;
+    top:22px;
+    left:38px;
+    font-size: 1.5em;
+}
+
+.properties_heading{
+    margin:50px;
+    width:700px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+    margin-top:120px;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.properties_heading h2{
+    background-image: linear-gradient(20deg,#2777ff,#a400a4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
